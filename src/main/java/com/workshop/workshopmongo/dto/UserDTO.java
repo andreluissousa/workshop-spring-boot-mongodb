@@ -1,10 +1,7 @@
 package com.workshop.workshopmongo.dto;
 
 import java.io.Serializable;
-
 import com.workshop.workshopmongo.domain.User;
-
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
