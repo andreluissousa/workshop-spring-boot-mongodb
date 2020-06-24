@@ -2,6 +2,7 @@ package com.workshop.workshopmongo.domain;
 
 import java.io.Serializable;
 import java.util.Date;
+import com.workshop.workshopmongo.dto.AuthorDTO;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.AllArgsConstructor;
@@ -22,7 +23,6 @@ public class Post implements Serializable{
     private Date date;
     private String title;
     private String body;
-    
-    private User author;
+    private AuthorDTO author;
     
 }
